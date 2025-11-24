@@ -5,10 +5,9 @@
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git-lfs:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-
-  "remoteUser": "vscode",
 
   "customizations": {
     "vscode": {
@@ -75,6 +74,12 @@
 
         "terminal.integrated.enablePersistentSessions": false,
         "git.enabled": true,
+        "git.enableSmartCommit": true,
+        "git.postCommitCommand": "sync",
+
+        "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "none",
+        "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "none",
+
 
         "[csharp]": {
           "editor.formatOnSave": false,
