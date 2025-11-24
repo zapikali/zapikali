@@ -1,0 +1,15 @@
+/workspaces/zapikali/CodexDemo/bin/Debug/net9.0/CodexDemo
+/workspaces/zapikali/CodexDemo/bin/Debug/net9.0/CodexDemo.deps.json
+/workspaces/zapikali/CodexDemo/bin/Debug/net9.0/CodexDemo.runtimeconfig.json
+/workspaces/zapikali/CodexDemo/bin/Debug/net9.0/CodexDemo.dll
+/workspaces/zapikali/CodexDemo/bin/Debug/net9.0/CodexDemo.pdb
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.AssemblyInfoInputs.cache
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.AssemblyInfo.cs
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.csproj.CoreCompileInputs.cache
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.sourcelink.json
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.dll
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/refint/CodexDemo.dll
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.pdb
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/CodexDemo.genruntimeconfig.cache
+/workspaces/zapikali/CodexDemo/obj/Debug/net9.0/ref/CodexDemo.dll
