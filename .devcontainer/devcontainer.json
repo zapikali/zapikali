@@ -1,0 +1,89 @@
+{
+  "name": "C# .NET 9 + Codex",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:9.0",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "remoteUser": "vscode",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-vscode.powershell",
+        "openai.chatgpt"
+      ],
+      "settings": {
+        "telemetry.telemetryLevel": "off",
+        "workbench.startupEditor": "none",
+        "workbench.colorTheme": "Default Light Modern",
+        "workbench.editor.enablePreview": true,
+        "workbench.editor.restoreViewState": false,
+        "workbench.activityBar.visible": true,
+        "breadcrumbs.enabled": false,
+        "workbench.tree.indent": 8,
+
+        "editor.minimap.enabled": false,
+        "editor.smoothScrolling": false,
+        "editor.renderWhitespace": "none",
+        "editor.cursorBlinking": "solid",
+        "editor.fontLigatures": false,
+
+        "editor.semanticHighlighting.enabled": false,
+        "editor.bracketPairColorization.enabled": false,
+        "editor.guides.bracketPairs": false,
+        "editor.occurrencesHighlight": "off",
+        "editor.selectionHighlight": false,
+
+        "editor.hover.enabled": true,
+        "editor.parameterHints.enabled": false,
+        "editor.inlayHints.enabled": "off",
+        "editor.codeLens": false,
+
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.quickSuggestions": {
+          "other": true,
+          "comments": false,
+          "strings": false
+        },
+        "editor.inlineSuggest.enabled": true,
+
+        "files.autoSave": "off",
+
+        "search.exclude": {
+          "**/node_modules": true,
+          "**/bin": true,
+          "**/obj": true,
+          "**/dist": true,
+          "**/.git": true,
+          "**/.vs": true
+        },
+        "files.watcherExclude": {
+          "**/node_modules/**": true,
+          "**/bin/**": true,
+          "**/obj/**": true,
+          "**/dist/**": true,
+          "**/.git/**": true,
+          "**/.vs/**": true
+        },
+
+        "terminal.integrated.enablePersistentSessions": false,
+        "git.enabled": true,
+
+        "[csharp]": {
+          "editor.formatOnSave": false,
+          "editor.formatOnType": false
+        },
+
+        "explorer.confirmDelete": false,
+        "problems.autoReveal": false
+      }
+    }
+  }
+}
